@@ -1,6 +1,7 @@
 import React from 'react';
 import { injectIntl } from 'react-intl';
 
+import Meta from '../ui/Meta';
 import data from '../../data/example.json';
 import ThemeCard from '../ui/ThemeCard';
 import homeStyles from '../../styles/home.module.scss';
@@ -80,6 +81,7 @@ class Home extends React.Component {
 
 		return (
 			<React.Fragment>
+				<Meta />
 				<section className={homeStyles.homeContainer}>
 					<div className="wrapper">
 						<h1 className={homeStyles.homeTitle}>{title}</h1>
