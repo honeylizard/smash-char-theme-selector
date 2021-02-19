@@ -1,0 +1,34 @@
+{
+	"name": "smash-char-theme-selector",
+	"version": "0.1.0",
+	"private": "true",
+	"scripts": {
+		"build": "react-scripts build",
+		"start": "react-scripts start",
+		"test": "react-scripts test",
+		"eject": "react-scripts eject",
+		"stop": "taskkill -F -IM node.exe"
+	},
+	"dependencies": {
+		"react": "^16.9.0",
+		"react-dom": "^16.9.0",
+		"react-intl": "^3.3.2",
+		"react-router": "^5.1.0",
+		"react-router-dom": "^5.1.0",
+		"react-scripts": "^3.1.2",
+		"typescript": "^3.9.7"
+	},
+	"devDependencies": {
+		"sass": "^1.26.10",
+		"node-sass": "^4.14.1"
+	},
+	"eslintConfig": {
+		"extends": "react-app"
+	},
+	"browserslist": [
+		">0.2%",
+		"not dead",
+		"not ie<=11",
+		"not op_mini all"
+	]
+}

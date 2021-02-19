@@ -1,0 +1,20 @@
+@import "_core"; // _core.scss
+
+.card {
+    box-sizing: border-box;
+    border-radius: 25px 0 25px 0;
+    background-color: $black-color;
+    color: $white-color;
+    max-width: 500px;
+    min-height: 100px;
+    margin: 20px auto;
+    padding: 10px 20px;
+
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+
+    .cardTitle {
+        text-transform: capitalize;
+    }
+}

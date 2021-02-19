@@ -1,0 +1,13 @@
+{
+	"meta.title": "Smash Character Theme Selector",
+	"meta.lang": "en-US",
+	"meta.developer": "Developed by Weissbern Workshop",
+	
+	"app.404.title": "These are uncharted waters",
+	"app.404.body": "Sorry, this page couldn't be found.",
+	"app.404.nav": "Go back to the ",
+	"app.404.link": "home page",
+
+	"randomizeTheme": "Randomize Theme",
+	"currentTheme": "Current Theme"
+}

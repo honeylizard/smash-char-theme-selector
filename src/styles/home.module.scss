@@ -1,0 +1,47 @@
+@import "_core"; // _core.scss
+
+.homeContainer {
+
+    .homeTitle {
+        text-align: center;
+    }
+
+    .homeAlert {
+        box-sizing: border-box;
+        padding: 10px 20px;
+        margin: 10px 20px;
+        border-radius: 10px;
+        text-align: center;
+
+        &.homeAlertError {
+            color: $red-color;
+            background-color: $red-light-color;
+            border-color: $red-alt-color;
+        }
+    }
+
+    .homeForm {
+        text-align: center;
+
+        button {
+            box-sizing: border-box;
+            padding: 10px 20px;
+            margin: 10px 20px;
+            border-radius: 10px;
+            border: 2px solid $black-color;
+            background-color: $white-color;
+            font-weight: bold;
+            font-size: 1.2rem;
+            cursor: pointer;
+            outline: none; // disabling only because we will use the box-shadow to mimic the outline but will follow the radius
+
+            &:hover {
+                background-color: purple;
+                color: $white-color;
+            }
+            &:focus-visible {       
+                box-shadow: 0 0 0 3px darkgoldenrod;
+            }
+        }
+    }
+}
