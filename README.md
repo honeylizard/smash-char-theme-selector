@@ -1,32 +1,31 @@
 ## Start
 
-execute the following command in the main directory:
-npm start
+1. Execute the following command in the main directory
 
-Navigate to localhost:3000
+        npm start
+
+2. Open a browser and navigate to the following url
+
+        localhost:3000
 
 ## Packages Used
 
 React: 
 
-- react, 
-- react-dom, 
-- react-router, 
-- react-router-dom, 
-- react-scripts (including peer dependency of typescript)
+* react, 
+* react-dom, 
+* react-router, 
+* react-router-dom, 
+* react-scripts (including peer dependency of typescript)
 
 React Localization: 
 
-- react-intl
+* react-intl
 
-FontAwesome (Free): 
+React Meta Tags:
 
-- @fortawesome/fontawesome-svg-core, 
-- @fortawesome/free-solid-svg-icons, 
-- @fortawesome/free-brands-svg-icons, 
-- @fortawesome/free-regular-svg-icons, 
-- @fortawesome/react-fontawesome
+* react-meta-tags
 
 SASS:
 
-- sass (including peer dependency of node-sass)
+* sass (including peer dependency of node-sass)

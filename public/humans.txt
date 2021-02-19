@@ -10,9 +10,6 @@ Location: Atlanta, Georgia, USA
 HTML5shiv
 URL: https://code.google.com/p/html5shiv/
 
-Icons: Font Awesome
-URL: https://fontawesome.com/
-
 /* SITE */
 Standards: HTML5, CSS3
 Language: English
